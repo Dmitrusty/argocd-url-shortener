@@ -15,7 +15,7 @@ spec:
         io.kompose.service: url-shortener
     spec:
       containers:
-        - image: cjhjrnsczxj/url-shortener:0.0.2
+        - image: cjhjrnsczxj/url-shortener:0.0.1
           name: url-shortener
           ports:
             - containerPort: 8080
